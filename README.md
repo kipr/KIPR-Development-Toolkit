@@ -4,7 +4,7 @@ This is a package that includes everything you need to start developing software
 # Instructions
 To install on your raspberry pi (or Linux PC, but functionality will be reduced if it works at all),
 
-''''bash
+```` bash
 git clone https://github.com/kipr/KIPR-Development-Toolkit
 
 mv KIPR-Development-Toolkit Dev 
@@ -16,4 +16,4 @@ sudo chmod +x install.sh
 sudo ./install.sh
 
 This will install all of KIPR Suite as well as other software/documents that are necessary.
-''''
+````
