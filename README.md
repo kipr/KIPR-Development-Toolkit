@@ -14,6 +14,7 @@ cd Dev
 sudo chmod +x install.sh
 
 sudo ./install.sh
+````
 
 This will install all of KIPR Suite as well as other software/documents that are necessary.
-````
+
