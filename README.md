@@ -7,7 +7,7 @@ To install on your raspberry pi (or Linux PC, but functionality will be reduced 
 ```` bash
 git clone https://github.com/kipr/KIPR-Development-Toolkit
 
-mv KIPR-Development-Toolkit Dev 
+mv kipr-development-toolkit Dev 
 
 cd Dev
 
