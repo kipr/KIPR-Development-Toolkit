@@ -18,3 +18,4 @@ sudo ./install.sh
 
 This will install all of KIPR Suite as well as other software/documents that are necessary.
 
+*This is currently in Alpha; currently trying to make this work more efficiently and turn any pi into a Wombat.*
