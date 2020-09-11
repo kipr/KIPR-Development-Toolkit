@@ -8,10 +8,14 @@ sudo apt-get -y install nodejs #Used in Harrogate, Node.js
 sudo apt-get -y install npm #Like PIP but for node.js
 
 #Clear the Workspace
-mkdir ../tmp
-mv cleanSlate.sh ../tmp/cleanSlate.sh
+sudo mkdir ../tmp
+sudo mv install.sh ../tmp/install.sh
+sudo mv Docs ../tmp/Docs
+
 sudo rm -r *
-mv ../tmp/cleanSlate.sh cleanSlate.sh
+
+sudo mv ../tmp/install.sh install.sh
+sudo mv ../tmp/Docs Docs
 sudo rm -r ../tmp
 
 #Pull from Github
@@ -125,17 +129,22 @@ echo -e "\n Finished Installing Harrogate Dependancies! \n"
 echo -e "\n Attempting to Launch Harrogate... \n"
 git clone https://github.com/kipr/harrogate
 cd harrogate
-gulp
+
 
 echo -e "\n Finished Launching Harrogate! \n"
 
 
 #Install Qt Creator
-sudo apt-get -y install openjdk-7-jre qtcreator
+sudo apt-get -y install openjdk-8-jre qtcreator
 
-echo "\n \n Note-1: To Start a Production Harrogate Server (KISS IDE)  you must run the following commands. \n cd harrogate \n node server.js \n \n"
+echo -e "\n \n Note-1: \n To Start a Production Harrogate Server (KISS IDE) you must run the following commands: \n cd harrogate \n node server.js \n"
 
-echo "\n \n Note-2: To Edit .ui files, use Qt Creator (launched with 'qtcreator'), This is a graphical UI editor."
+echo -e "To start a Development Server (compile jade files), run the following: \n cd harrogate \n gulp \n \n"
+
+echo -e "Warning: Gulp must be ran before you can run the production server. This compiles Jade files and browserfies the scripts"
+
+echo -e "\n Note-2: \n To Edit .ui files, use Qt Creator (launched with 'qtcreator'), This is a graphical UI editor."
+
 
 
 echo "--------------------------------------------- \n"
