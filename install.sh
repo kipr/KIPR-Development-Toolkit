@@ -128,7 +128,7 @@ echo -e "\n Finished Installing Harrogate Dependancies! \n"
 
 echo -e "\n Attempting to Launch Harrogate... \n"
 git clone https://github.com/kipr/harrogate
-cd harrogate
+mv harrogate /home/pi || sudo cp harrogate /home/pi/
 
 
 echo -e "\n Finished Launching Harrogate! \n"
