@@ -15,6 +15,8 @@ mv ../tmp/cleanSlate.sh cleanSlate.sh
 sudo rm -r ../tmp
 
 #Pull from Github
+( git clone https://github.com/kipr/Wombat-Firmware && echo -e "Finished Cloning Wombat Firmware \n" && fg ) &
+
 ( git clone https://github.com/kipr/libwallaby && echo -e "Finished Cloning Libwallaby! \n" && fg ) &
 ( git clone https://github.com/kipr/pcompiler && echo -e "Finished Cloning Pcompiler! \n" && fg ) &
 ( git clone https://github.com/kipr/libkar && echo -e "Finished Cloning Libkar! \n" && fg ) &
