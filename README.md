@@ -34,7 +34,7 @@ sudo ./install.sh
 
 This will install all of KIPR Suite as well as other software/documents that are necessary.
 
-*The Installation process is currently in Beta*
+*The Installation process is currently in Beta, it still does not turn any Pi with Debian/Raspian into a Wombat*
 
 
 # Qt Creator
