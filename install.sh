@@ -89,6 +89,7 @@ npm install --global gulp-cli
 #Install npm Dependancies
 cd harrogate
 npm install
+cd ..
 
 #Get Other Requirements
 sudo apt-get -y install zliblg-dev libpng-dev libbson-1.0 libboost-all-dev 
