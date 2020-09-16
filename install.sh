@@ -127,7 +127,7 @@ cd ../..
 echo -e "\n Finished Installing Harrogate Dependancies! \n"
 
 
-echo -e "\n Attempting to Launch Harrogate... \n"
+echo -e "\n Attempting to Install Harrogate... \n"
 git clone https://github.com/kipr/harrogate
 mv harrogate /home/pi || sudo cp harrogate /home/pi/
 
@@ -138,17 +138,9 @@ echo -e "\n Finished Launching Harrogate! \n"
 #Install Qt Creator
 sudo apt-get -y install openjdk-8-jre qtcreator
 
-echo -e "\n \n Note-1: \n To Start a Production Harrogate Server (KISS IDE) you must run the following commands: \n cd harrogate \n node server.js \n"
-
-echo -e "To start a Development Server (compile jade files), run the following: \n cd harrogate \n gulp \n \n"
-
-echo -e "Warning: Gulp must be ran before you can run the production server. This compiles Jade files and browserfies the scripts"
-
-echo -e "\n Note-2: \n To Edit .ui files, use Qt Creator (launched with 'qtcreator'), This is a graphical UI editor."
-
+cat instructions.txt
 
 
 echo "--------------------------------------------- \n"
 echo "Your Development Toolkit is Now Complete. \n"
 echo "--------------------------------------------- \n"
-

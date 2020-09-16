@@ -1,0 +1,19 @@
+Botui:
+A graphical User Interface
+https://github.com/kipr/botui
+
+Libwallaby:
+Library for interfacing with Controller firmware (to access hardware)
+https://github.com/kipr/libwallaby
+
+Harrogate:
+A node.js server that hosts KISS IDE
+https://github.com/kipr/harrogate
+
+Other Dependancies (Found on KIPR's Github):
+Bsonbind, Daylite, Libaurora, Libkar, Pcompiler
+
+Other Dependancies (Found online):
+Qt, Libpng, libbson, boost, Zlib
+
+For more information, please look at /Docs/WombatDevManual.pdf
