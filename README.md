@@ -1,9 +1,6 @@
 # KIPR-Development-Toolkit
 This is a package that includes everything you need to start developing software for KIPR
 
-Here is a Link to the OS State(s) that is/are used in production of the Wombat:
-https://www.dropbox.com/sh/s4lkx9qo7h3xc6d/AAAdFrSIWdEv_nFEpsvKPN9ka?dl=0
-
 # Setting up a development enviroment
 This will download everything you need to Develop for the Wombat, but will not build and install everything.
 
@@ -66,6 +63,24 @@ Github:
 https://github.com/qt-creator/qt-creator
 
 
+# Installing "KIPR OS"
+To install KIPR OS, we put the OS state listed above on an SD card that will be used by the Pi.
+
+Here is a Link to the OS State(s) that is/are used in production of the Wombat:
+https://www.dropbox.com/sh/s4lkx9qo7h3xc6d/AAAdFrSIWdEv_nFEpsvKPN9ka?dl=0
+
+The best way to do this is through the Linux terminal (so that a shell script can automate a lot of writing), but Balena Etcher will work
+
+Linux:
+```` bash
+sudo dd if="Wombat.img" of=<drive directory> bs=4M status=progress
+````
+
+Windows/Linux/MacOS:
+
+Use Balena Etcher.
+https://www.balena.io/etcher/
+
 # KIPR Suite
 
 Botui: https://github.com/kipr/botui
@@ -87,14 +102,3 @@ Bsonbind: https://github.com/kipr/bsonbind
 Third Party Dependancies: Libbson v1.1, Boost, Zlib v1.2, Libpng v1.6, Qt v4.7.4
 
 
-# Installing "KIPR OS" (download link above)
-
-Linux:
-```` bash
-sudo dd if="Wombat.img" of=<drive directory> bs=4M status=progress
-````
-
-Windows/Linux/MacOS:
-
-Use Balena Etcher.
-https://www.balena.io/etcher/
