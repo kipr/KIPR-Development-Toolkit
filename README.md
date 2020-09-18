@@ -67,11 +67,19 @@ https://github.com/qt-creator/qt-creator
 
 
 # KIPR Suite
+
 Botui: https://github.com/kipr/botui
+
 Libwallaby: https://github.com/kipr/libwallaby
+
 Harrogate: https://github.com/kipr/harrogate
+
 Pcompiler: https://github.com/kipr/pcompiler
+
 Daylite: https://github.com/kipr/daylite
+
 Libaurora: https://github.com/kipr/libaurora
+
 Libkar: https://github.com/kipr/libkar
+
 Bsonbind: https://github.com/kipr/bsonbind
