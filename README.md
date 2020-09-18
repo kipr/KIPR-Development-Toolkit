@@ -23,8 +23,8 @@ This is to make sure that everything will build and install correctly on your ma
 
 (The Raspberry Pi is the only machine that is officially supported)
 
-If you already have an older version of the software and just need an update, 
 
+If you already have an older version of the software and just need an update, 
 plug the Wombat into an ethernet connection and go to "Settings -> Update -> Online Update" to get the latest version.
 
 ```` bash
