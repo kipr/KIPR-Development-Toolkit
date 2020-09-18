@@ -19,8 +19,11 @@ sudo ./download.sh
 This will download everything just like download.sh,
 but it will also build all the projects and install them to the controller.
 
-This is for automatically bringing your controller up to date.
-If you already have an older version of the software, plug the Wombat into an ethernet connection and go to "Settings -> Update -> Online Update" to get the latest version.
+This is to make sure that everything will build and install correctly on your machine before you make changes 
+
+(The Raspberry Pi is the only machine that is officially supported).
+
+If you already have an older version of the software and just need an update, plug the Wombat into an ethernet connection and go to "Settings -> Update -> Online Update" to get the latest version.
 
 ```` bash
 git clone https://github.com/kipr/KIPR-Development-Toolkit
