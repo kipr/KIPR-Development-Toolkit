@@ -85,3 +85,16 @@ Libkar: https://github.com/kipr/libkar
 Bsonbind: https://github.com/kipr/bsonbind
 
 Third Party Dependancies: Libbson v1.1, Boost, Zlib v1.2, Libpng v1.6, Qt v4.7.4
+
+
+# Installing "KIPR OS" (download link above)
+
+Linux:
+```` bash
+sudo dd if="Wombat.img" of=<drive directory> bs=4M status=progress
+````
+
+Windows/Linux/MacOS:
+
+Use Balena Etcher.
+https://www.balena.io/etcher/
