@@ -83,3 +83,5 @@ Libaurora: https://github.com/kipr/libaurora
 Libkar: https://github.com/kipr/libkar
 
 Bsonbind: https://github.com/kipr/bsonbind
+
+Third Party Dependancies: Libbson v1.1, Boost, Zlib v1.2, Libpng v1.6, Qt v4.7.4
