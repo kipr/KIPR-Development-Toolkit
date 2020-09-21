@@ -10,11 +10,13 @@ sudo apt-get -y install npm #Like PIP but for node.js
 #Clear the Workspace
 sudo mkdir ../tmp
 sudo mv install.sh ../tmp/install.sh
+sudo mv download.sh ../tmp/download.sh
 sudo mv Docs ../tmp/Docs
 
 sudo rm -r *
 
 sudo mv ../tmp/install.sh install.sh
+sudo mv ../tmp/download.sh download.sh
 sudo mv ../tmp/Docs Docs
 sudo rm -r ../tmp
 
