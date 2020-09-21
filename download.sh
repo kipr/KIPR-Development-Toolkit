@@ -57,6 +57,6 @@ sudo apt-get -y install openjdk-8-jre qtcreator
 cat instructions.txt
 
 
-echo "--------------------------------------------- \n"
-echo "Your Development Toolkit is Now Complete. \n"
-echo "--------------------------------------------- \n"
+echo -e "--------------------------------------------- \n"
+echo -e "Your Development Toolkit is Now Complete. \n"
+echo -e "--------------------------------------------- \n"
