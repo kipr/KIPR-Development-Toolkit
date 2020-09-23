@@ -1,4 +1,4 @@
-# KIPR-Development-Toolkit
+# KIPR-Development-Toolkit (KDT)
 This is a package that includes everything you need to start developing software for KIPR
 
 # Setting up a development enviroment
@@ -48,6 +48,7 @@ This could be anything from a tutorial of how to make a button to the Wombat Dev
 
 The best place to start is the Wombat Developer Manual (Docs/WombatDevManual.pdf), which contains an overview of the controller.
 
+If you are trying to understand the schematic files, try "Wombat Chip Explanations.pdf" or "STM32 Chip Explanations.pdf"
 
 # Qt Creator
 Editing .ui files is usually easier if you use Qt Creator. After installation you should be able to run "qtcreator" to launch.
