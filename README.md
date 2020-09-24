@@ -14,8 +14,10 @@ cd KIPR-Development-Toolkit
 
 sudo chmod +x download.sh
 
-sudo ./download.sh
+./download.sh
 ````
+
+(Note: running ./download.sh as root might lock your user from accessing the downloaded files.)
 
 # Automated Installation of KIPR-Suite
 This will download everything just like download.sh,
@@ -38,6 +40,9 @@ sudo chmod +x install.sh
 
 sudo ./install.sh
 ````
+
+(Note: running ./download.sh as root might lock your user from accessing the downloaded files.)
+
 
 This will install all of KIPR Suite as well as other software/documents that are necessary.
 
