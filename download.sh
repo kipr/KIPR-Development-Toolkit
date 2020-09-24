@@ -1,6 +1,8 @@
 #!/bin/bash
 set -m #Set Job Control
 
+echo -e "\n WARNING: Running download.sh as root might set the downloaded files to be write-protected \n"
+
 #Get tools
 sudo apt-get -y install cmake
 sudo apt-get -y install build-essential #Grabs make and other important things
@@ -16,6 +18,20 @@ sudo apt-get -y install npm #Like PIP but for node.js
 ( git clone https://github.com/kipr/botui && echo -e "Finished Cloning Botui! \n" && fg ) &
 git clone https://github.com/kipr/harrogate && echo -e "Finished Cloning Harrogate! \n" && fg
 
+
+#Get Other Requirements
+sudo apt-get -y install zliblg-dev libpng-dev libbson-1.0 libboost-all-dev 
+
+#Download libaurora
+git clone https://github.com/kipr/libaurora
+
+
+#Download Bsonbind
+git clone https://github.com/kipr/bsonbind
+
+
+#Download Daylight
+git clone https://github.com/kipr/daylite
 
 #Install Harrogate Dependancies
 echo -e "\n Installing Harrogate Dependancies... \n"
@@ -34,25 +50,8 @@ cd harrogate
 npm install
 cd ..
 
-#Get Other Requirements
-sudo apt-get -y install zliblg-dev libpng-dev libbson-1.0 libboost-all-dev 
-
-#Download libaurora
-git clone https://github.com/kipr/libaurora
-
-
-#Download Bsonbind
-git clone https://github.com/kipr/bsonbind
-
-
-#Download Daylight
-git clone https://github.com/kipr/daylite
-
 
 echo -e "\n Finished Installing Harrogate Dependancies! \n"
-
-#Fixes issue of write protections, for some reason this keeps messing up
-sudo chmod -R 777 *
 
 #Install Qt Creator
 sudo apt-get -y install openjdk-8-jre qtcreator
