@@ -140,9 +140,13 @@ echo -e "\n Finished Launching Harrogate! \n"
 #Install Qt Creator
 sudo apt-get -y install openjdk-8-jre qtcreator
 
-cat instructions.txt
+#Fixes issue of write protections, for some reason this keeps messing up
+sudo chmod -R 777 *
 
+echo
 
-echo -e "--------------------------------------------- \n"
+cat instructions.txt 
+
+echo -e "\n --------------------------------------------- \n"
 echo -e "Your Development Toolkit is Now Complete. \n"
 echo -e "--------------------------------------------- \n"
