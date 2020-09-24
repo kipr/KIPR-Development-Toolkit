@@ -1,6 +1,8 @@
 #!/bin/bash
 set -m #Set Job Control
 
+echo -e "\n WARNING: Running as root might cause files to be write-protected, use chmod or "chown $(whoami)" to fix \n"
+
 #Get tools
 sudo apt-get -y install cmake
 sudo apt-get -y install build-essential #Grabs make and other important things
@@ -139,9 +141,6 @@ echo -e "\n Finished Launching Harrogate! \n"
 
 #Install Qt Creator
 sudo apt-get -y install openjdk-8-jre qtcreator
-
-#Fixes issue of write protections, for some reason this keeps messing up
-sudo chmod -R 777 *
 
 echo
 
