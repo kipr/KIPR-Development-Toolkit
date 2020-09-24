@@ -51,12 +51,17 @@ git clone https://github.com/kipr/daylite
 
 echo -e "\n Finished Installing Harrogate Dependancies! \n"
 
+#Fixes issue of write protections, for some reason this keeps messing up
+sudo chmod -R 777 *
+
 #Install Qt Creator
 sudo apt-get -y install openjdk-8-jre qtcreator
+
+echo
 
 cat instructions.txt
 
 
-echo -e "--------------------------------------------- \n"
+echo -e "\n--------------------------------------------- \n"
 echo -e "Your Development Toolkit is Now Complete. \n"
 echo -e "--------------------------------------------- \n"
