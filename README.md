@@ -38,7 +38,7 @@ cd KIPR-Development-Toolkit
 
 sudo chmod +x install.sh
 
-sudo ./install.sh
+./install.sh
 ````
 
 (Note: running ./download.sh as root might lock your user from accessing the downloaded files.)
