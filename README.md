@@ -89,6 +89,37 @@ Windows/Linux/MacOS:
 Use Balena Etcher.
 https://www.balena.io/etcher/
 
+# Make it easier to pull from KIPR's github (TIP)
+
+Create a script:
+
+````bash
+sudo nano kgit
+````
+
+Inside kgit:
+
+````bash
+#!/bin/bash
+git clone https://github.com/kipr/$1
+````
+
+Make it work anywhere:
+````bash
+sudo mv kgit /usr/bin/kgit
+sudo chmod u+x /usr/bin/kgit
+alias kgit="/usr/bin/kgit"
+````
+###### (Adding to PATH will probably work, but some systems have had issues)
+
+
+How to Use:
+````bash
+kgit botui
+kgit libwallaby
+...
+````
+
 # KIPR Suite
 
 Botui: https://github.com/kipr/botui
