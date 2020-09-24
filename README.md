@@ -41,7 +41,7 @@ sudo chmod +x install.sh
 ./install.sh
 ````
 
-(Note: running ./download.sh as root might lock your user from accessing the downloaded files.)
+(Note: running ./install.sh as root might lock your user from accessing the downloaded files.)
 
 
 This will install all of KIPR Suite as well as other software/documents that are necessary.
