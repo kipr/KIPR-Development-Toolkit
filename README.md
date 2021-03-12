@@ -19,6 +19,16 @@ If the information is not documented, feel free to contact one of the developers
 
 (Note: if you are a developer open to answering, please put contact info here. I just did not want to put contact info without consent)
 
+#### UNOFFICIAL Developer Discord:
+This is a Discord that we use to communicate (as of writing this).
+
+This is not officially endorsed by KIPR:
+
+https://discord.gg/Az92eFD785
+
+Please edit your nickname to your real name for clarity.
+
+
 # Setting up a development enviroment
 This will download everything you need to Develop for the Wombat, but will not build and install everything.
 
