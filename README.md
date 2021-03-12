@@ -1,13 +1,23 @@
 # KIPR-Development-Toolkit (KDT)
 
 ## Wombat Developer Manual
+This is a package that includes everything you need to start developing software for KIPR
+
+If you find any bugs, issues, or think of a potential feature of this, please open a thread in the Issues tab.
+
 The best place to start is to go to [docs/WombatDevManual.pdf](https://github.com/kipr/KIPR-Development-Toolkit/blob/master/Docs/WombatDevManual.pdf "Wombat Developer Manual")
 
 The [docs](https://github.com/kipr/KIPR-Development-Toolkit/blob/master/Docs "Documentation, Tutorials, and other info.") tab also has tutorials and information to help you get started.
 
-This is a package that includes everything you need to start developing software for KIPR
+If you can't find the info you need in either of those, 
+it might have been answered in the wiki at some point (click "Wiki" tab).
 
-If you find any bugs, issues, or think of a potential feature of this, please open a thread in the Issues tab.
+If the information is not documented, feel free to contact one of the developers or open a new issue.
+
+#### Developer Contact Info:
+[Software & Hardware] Zachary Sasser: zsasser@kipr.org
+
+(Note: if you are a developer open to answering, please put contact info here. I just did not want to put contact info without consent)
 
 # Setting up a development enviroment
 This will download everything you need to Develop for the Wombat, but will not build and install everything.
