@@ -146,6 +146,16 @@ kgit libwallaby
 ...
 ````
 
+## EAGLE Help:
+If you cannot afford to get a copy of Eagle (like most people),
+you can get a copy by using your .edu email if you have one.
+
+Here is the official documenation on how to do that:
+https://knowledge.autodesk.com/support/eagle/learn-explore/caas/sfdcarticles/sfdcarticles/Eagle-Education.html
+
+Note: Some schools have it set up through their IT department;
+At OU, there was an OU IT website that gave access to the software.
+
 # KIPR Suite
 
 Botui: https://github.com/kipr/botui
