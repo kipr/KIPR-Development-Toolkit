@@ -77,10 +77,6 @@ This will install all of KIPR Suite as well as other software/documents that are
 
 _The Installation process is currently in Beta, it still does not turn any Pi with Debian/Raspian into a Wombat_
 
-## Verified OS
-
-Ubuntu Server 20.04.2 LTS
-
 # Docs Folder
 
 The docs file contains documents that past developers have made in order to help future ones.
