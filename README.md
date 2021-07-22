@@ -50,7 +50,7 @@ sudo chmod +x download.sh
 (Note: running ./download.sh as root might lock your user from accessing the downloaded files.)
 
 # Automated Installation of KIPR-Suite
-
+[Not yet supported, work in progress]
 This will download everything just like download.sh,
 but it will also build all the projects and install them to the controller.
 
