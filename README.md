@@ -11,7 +11,7 @@ The best place to start is to go to [docs/WombatDevManual.pdf](https://github.co
 The [docs](https://github.com/kipr/KIPR-Development-Toolkit/blob/master/Docs 'Documentation, Tutorials, and other info.') tab also has tutorials and information to help you get started.
 
 If you can't find the info you need in either of those,
-it might have been answered in the wiki at some point (click "Wiki" tab).
+it might have been answered in the [wiki](https://github.com/kipr/KIPR-Development-Toolkit/wiki) at some point.
 
 If the information is not documented, feel free to contact one of the developers or open a new issue.
 
