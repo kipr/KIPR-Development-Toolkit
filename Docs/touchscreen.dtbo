@@ -1,6 +1,8 @@
+/dts-v1/;
+/plugin/;
  
 / {
-        compatible = "brcm,bcm2835", "brcm,bcm2708", "brcm,bcm2709";
+        compatible = "brcm,bcm2835";
  
         fragment@0 {
                 target = <&gpio>;
@@ -16,26 +18,25 @@
         fragment@1 {
                 target = <&i2c1>;
                 __overlay__ {
-            #address-cells = <1>;
+                        #address-cells = <1>;
                         #size-cells = <0>;
                         status = "okay";
  
-              tsc2007: tsc2007@48 {
-              			#address-cells = <1>;
-                            	#size-cells = <0>;
+                        tsc2007: tsc2007@48 {
                                 compatible = "ti,tsc2007";
                                 reg = <0x48>;
-                		interrupt-parent = <&gpio25>;
-                		interrupts = <0x0 0x2>;
-                		gpios = <&gpio25 0 0>;
+                		interrupt-parent = <&gpio>;
+                		interrupts = <25 0x2>; /* falling edge */
+                		gpios = <&gpio 25 0>;
                 		ti,x-plate-ohms = <180>;
-                                };
                         };
                 };
+        };
        
  
         __overrides__ {
-                irq_pin = <&tsc2007>, "irq-gpio:4",
+                irq_pin = <&tsc2007>, "interrupts:0",
+                          <&tsc2007>, "gpios:4",
                           <&tsc2007_pins>, "brcm,pins:0";
         };
 };
