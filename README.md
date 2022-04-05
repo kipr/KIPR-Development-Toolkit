@@ -31,8 +31,6 @@ Please edit your nickname to your real name for clarity.
 
 The docs file contains documents that past developers have made in order to help future ones.
 
-This could be anything from a tutorial of how to make a button to the Wombat Developer Manual itself.
-
 The best place to start is the Wombat Developer Manual (Docs/WombatDevManual.pdf), which contains an overview of the controller.
 
 If you are trying to understand the schematic files, try "Wombat Chip Explanations.pdf" or "STM32 Chip Explanations.pdf"
